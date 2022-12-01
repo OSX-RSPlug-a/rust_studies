@@ -1,6 +1,8 @@
 use std::io;
 
 fn main() {
+    
+    println!("{}", "#".repeat(140));
 
     // String types
     let mut name= String::new();
@@ -22,6 +24,8 @@ fn main() {
     let x = "Shaman".to_owned();
     println!("{x}");
 
+    println!("{:-^100}", "Title sep");
+    
     let mut text = String::new();
     println!("Insert a text");
     
