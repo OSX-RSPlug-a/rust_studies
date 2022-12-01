@@ -29,6 +29,6 @@ fn main() {
         .read_line(&mut text)
         .expect("Error reading console");
 
-    println!("U`ve inserted {text}");
+    println!("U`ve inserted {}", text.trim().len());
 
 }
