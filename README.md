@@ -2,7 +2,10 @@
 
 Running and testing the projects:
 
-      cargo build
+- Building the project:
+
+      cargo build    
+    
       
 - Running with live modifications cargo-watch:
       
