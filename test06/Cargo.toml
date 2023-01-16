@@ -1,0 +1,13 @@
+[package]
+name = "test06"
+version = "0.9.8"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#strip = true        # auto strip symbols from the binary
+#opt-level = "z"     # size optimization
+#lto =  true         # LTO enabled
+#codegen-units = 1   # 1 codegen for size optminization
+#panic = "abort"     # remove traceback info
