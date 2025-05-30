@@ -2,3 +2,6 @@
 .lock
 .cargo-lock
 .bin
+.rmeta
+.d
+.TAG
